@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bl-radius-4xl {
+      border-bottom-left-radius: 8rem;
+    }
+
+    .bl-radius-rigth-4xl {
+      border-top-right-radius: 8rem;
+    }
+
+    .mt-neg10{
+      margin-top: -10rem;
+    }
+
+    .mb-neg10{
+      margin-bottom: -20rem;
+    }
+
+    .phone-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: -80px; 
+    }
+
+    .extended-bg {
+        transform: scale(1.2); /* Ajusta la escala para hacerla más grande */
+      }
+
+    .bg-scale{
+        background-size: 180%;
+    }
+  }

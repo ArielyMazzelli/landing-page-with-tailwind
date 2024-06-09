@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Blogr</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="text-darkgrayishblue w-full">
+
+  <header class="bg-lightRed bg-cover bg-center bl-radius-4xl w-full h-superbig">
+    <div class=" bg-header-image-mobile lg:bg-header-image-desktop bg-cover bg-center bg-no-repeat bg-scale h-superbig
+    bl-radius-4xl p-1 w-full">
+      <div id=" barra" class=" flex gap-4 justify-evenly content-center items-center text-white mt-8">
+        <div class="flex gap-7 ">
+          <div><img src="images/logo.svg" alt=""></div>
+          <nav class="flex   space-x-8 text-white">
+            <div class="hidden lg:flex content-center relative group">
+              <button class="focus:outline-none">Producto<span>&#x25BC;</span></button>
+              <ul
+                class="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Overview</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Pricing</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Marketplace</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Features</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Integrations</a></li>
+              </ul>
+            </div>
+            <div class="hidden lg:flex content-center relative group">
+              <button class="focus:outline-none">Company <span>&#x25BC;</span></button>
+              <ul
+                class="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">About</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Team</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Blog</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Careers</a></li>
+              </ul>
+            </div>
+            <div class="hidden lg:flex content-center relative group">
+              <button class="focus:outline-none">Connect <span>&#x25BC;</span></button>
+              <ul
+                class="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Contact</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Newsletter</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">LinkedIn</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div>
+          <button>
+            <img class="lg:hidden" src="images/icon-hamburger.svg" alt="icon-hamburger">
+          </button>
+        </div>
+
+        <div class=" hidden lg:flex space-x-4 ">
+          <a href="#" class="content-center text-white">Login</a>
+          <a href="#" class="content-center bg-white font-semibold text-red-500 px-4 py-2 rounded-full">Sign Up</a>
+        </div>
+
+      </div>
+      <div class=" mt-28 lg:mt-40 text-center text-white">
+        <h1 class=" text-4xl md:text-6xl font-bold">A modern publishing platform</h1>
+        <p class="text-2xl mt-4">Grow your audience and build your online brand</p>
+        <div class=" flex flex-wrap justify-center gap-4 lg:block mt-20 space-x-4 ">
+          <a href="#" class="bg-white font-semibold text-red-500 px-6 py-2 rounded-full">Start for Free</a>
+          <a href="#" class="border border-white text-white px-6 py-2 rounded-full">Learn More</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <main class="w-full">
+    <div class="w-full mt-16">
+      <article class=" container mx-auto grid grid-cols-1 lg:grid-cols-2 grid-rows-1 lg:gap-8 lg:items-center lg:p-6 ">
+        <div class="text-center">
+          <h2 class="text-headings text-3xl lg:text-6xl font-bold text-center lg:text-right">Designed for the future
+          </h2>
+        </div>
+        <div class="h-80 lg:row-span-2 lg:w-full lg:h-full">
+          <div
+            class="bg-editor-mobile lg:editor-desktop bg-center lg:bg-left bg-no-repeat bg-cover lg:bg-contain center-phones mx-auto mt-8 lg:m-auto w-72 h-64 lg:w-full lg:h-full">
+          </div>
+        </div>
+        <div class="p-4 px-8 lg:col-span-1">
+          <section>
+            <h3 class="text-headings text-3xl font-bold text-center mt-4">Introducing an extensible editor
+            </h3>
+            <p class="text-justify leading-loose mt-4 lg:mx-4">
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.</p>
+          </section>
+          <section>
+            <h3 class="text-headings text-3xl font-bold text-center mt-8">Robust content management</h3>
+            <p class="text-justify leading-loose mt-4 lg:mx-4">
+              Flexible content management enables users to easily move through posts. Increase the usability of your
+              blog
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full
+              control.
+            </p>
+          </section>
+        </div>
+      </article>
+
+      <article class="bg-bgcard bl-radius-4xl bl-radius-rigth-4xl text-white w-full h-superbig md:h-96">
+        <div class="bg-images-circles bl-radius-4xl bg-cover bg-top md:bg-right h-superbig md:h-96 mt-48 w-full">
+          <div class=" flex flex-col md:flex-row md:justify-evenly md:items-center h-superbig md:h-96">
+            <div class="flex items-center text-center mt-neg10"><img class="max-w-full 
+                h-full" src="
+              images/illustration-phones.svg" alt="phones">
+            </div>
+            <div class="flex items-center aling-center md:text-center md:max-w-xl h-full ">
+              <div>
+                <h2 class="text-5xl font-bold md:mt-12 text-center">State of the Art Infrastructure</h2>
+                <p class="text-md text-center leading-loose mt-8"> With reliability and speed in mind, worldwide data
+                  centers
+                  provide the backbone for ultra-fast
+                  connectivity.
+                  This ensures your site will load instantly, no matter where your readers are, keeping your site
+                  competitive.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article
+        class=" container mx-auto grid grid-cols-1 lg:grid-cols-2 grid-rows-1 lg:grid-rows-2 lg:gap-8 lg:items-center lg:mt-24 lg:mb-24 lg:p-6 ">
+        <div class="h-80 lg:row-span-2 w-full h-full">
+          <div
+            class="bg-laptop-mobile lg:bg-laptop-desktop bg-center bg-no-repeat bg-cover lg:bg-contain mx-auto mt-8 lg:m-auto w-72 h-64 lg:w-full lg:h-full">
+          </div>
+        </div>
+
+        <div class="p-4">
+          <section>
+            <h3 class="text-headings text-3xl font-bold text-center mt-8">Free, open, simple</h3>
+            <p class="text-center leading-loose mt-4"> Blogr is a free and open source application backed by a large
+              community of helpful developers. It
+              supports
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+              tools,
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        </div>
+        </section>
+
+        <section>
+          <h3 class="text-headings text-3xl font-bold text-center mt-8"> Powerful tooling</h3>
+          <p class="text-center leading-loose mt-4">
+            Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
+            breeze,
+            but
+            capable of producing even the most complicated sites.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="bg-zinc-900 bl-radius-rigth-4xl lg:flex lg:justify-items-center h-full lg:h-96">
+    <div class="mt-20 lg:ml-20">
+      <img class="mx-auto p-12 lg:p-0" src="images/logo.svg" alt="logo">
+    </div>
+    <div class="flex flex-col lg:flex-row gap-8 items-center lg:w-full">
+      <div class="flex flex-col lg:flex-row lg:justify-evenly gap-8 items-center lg:items-start lg:w-full">
+        <section class="text-center">
+          <div class="mb-4"><span class="text-white">Product</span></div>
+          <ul class="text-slate-400">
+            <li><a href="">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
+          </ul>
+        </section>
+
+        <section class="text-center">
+          <div class="mb-4">
+            <span class="text-white">Company</span>
+          </div>
+          <ul class="text-slate-400">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </section>
+
+        <section class="text-center">
+          <div class="mb-4">
+            <span class="text-white">Connect</span>
+          </div>
+          <ul class="text-slate-400">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
